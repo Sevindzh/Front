@@ -1,0 +1,17 @@
+<div class = "login">
+  <h3>Login</h3>
+  <div>
+    <label for="Email">Email</label>
+    <input type="text" placeholder="Email" [(ngModel)]="email">
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" [(ngModel)]="password"/>
+  </div>
+  <div>
+    <button  type="submit" (click)="Login()">Login</button>
+  </div>
+  <div *ngIf = 'isLogIn'>
+    success
+  </div>
+</div>

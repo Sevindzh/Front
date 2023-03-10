@@ -1,0 +1,9 @@
+.user
+{
+    padding: 5px 10px;
+    text-align: left;
+    background: white;
+    color: black;
+    font-family:monospace;
+    font-size: 20px;
+}

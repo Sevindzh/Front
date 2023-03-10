@@ -1,0 +1,12 @@
+<div class = "building">
+    <h2>building works!</h2>
+    <ul>
+        <mat-card *ngFor="let building of buildings">
+            <mat-card-header>{{building.codeName}}</mat-card-header>
+            <mat-card-subtitle>
+                {{building.demolitionPerspective}}
+            </mat-card-subtitle>
+            <a routerLink="apts" routerLinkActive="active">View</a>
+        </mat-card>
+    </ul>
+</div>
